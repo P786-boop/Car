@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Model Details - Dream Motors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo-link">
+          <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect width="24" height="24" rx="4" fill="#ff6600"></rect>
+            <path d="M6 16 L10 8 L14 16 Z" fill="white"></path>
+          </svg>
+          <span>Dream Motors</span>
+        </a>
+      </div>
+      <nav class="main-nav" role="navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="model.html" class="nav-link active">Models</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn-primary">Book Test Drive</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container model-page">
+    <div id="modelDetail" class="model-detail">
+      <div class="model-media">
+        <img id="modelImage" src="" alt="Model image">
+      </div>
+      <div class="model-info">
+        <h1 id="modelName">Loading...</h1>
+        <p id="modelTagline" class="muted">—</p>
+        <p id="modelPrice" class="price">—</p>
+
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="overview">Overview</button>
+          <button class="tab-btn" data-tab="features">Features</button>
+          <button class="tab-btn" data-tab="specs">Specifications</button>
+          <button class="tab-btn" data-tab="gallery">Gallery</button>
+        </div>
+
+        <div class="tab-panels">
+          <div class="tab-panel" id="overview">Loading overview…</div>
+          <div class="tab-panel" id="features" style="display:none">Loading features…</div>
+          <div class="tab-panel" id="specs" style="display:none"><ul id="specList"></ul></div>
+          <div class="tab-panel" id="gallery" style="display:none" class="gallery-panel"></div>
+        </div>
+
+        <div class="actions">
+          <a id="bookBtn" href="contact.html" class="btn btn-primary">Book Test Drive</a>
+          <a id="brochureBtn" href="#" class="btn btn-outline">Download Brochure</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Dream Motors Showroom</strong>
+        <p>Premium cars • Trusted service</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="model.html">Models</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Dream Motors. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
