@@ -1,0 +1,74 @@
+{
+  "innova_hycross": {
+    "name": "Innova Hycross",
+    "tagline": "Comfort reimagined",
+    "price": "\u20b918,50,000*",
+    "image": "https://images.unsplash.com/photo-1617941209513-6b9ff7b74e9d?auto=format&fit=crop&w=1200&q=80",
+    "hero": "https://images.unsplash.com/photo-1605187150234-9d4d6b5d2b6f?auto=format&fit=crop&w=1400&q=80",
+    "overview": "Innova Hycross blends comfort, space and efficiency for long drives with family.",
+    "features": [
+      "Hybrid powertrain",
+      "7-seater spacious cabin",
+      "Advanced safety systems",
+      "Large infotainment display"
+    ],
+    "specs": {
+      "Engine": "2.0L Hybrid",
+      "Power": "190 HP (combined)",
+      "Transmission": "CVT / Automatic",
+      "Seating": "7"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1603377880993-2e7a9b7a1c06?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  "urban_cruiser": {
+    "name": "Urban Cruiser Hyryder",
+    "tagline": "It's HY time",
+    "price": "\u20b911,50,000*",
+    "image": "https://images.unsplash.com/photo-1582719478188-6b7b1a5f3f1b?auto=format&fit=crop&w=1200&q=80",
+    "hero": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1400&q=80",
+    "overview": "Compact SUV with hybrid efficiency and agile urban handling.",
+    "features": [
+      "Efficient hybrid engine",
+      "Modern infotainment",
+      "Safety assist features",
+      "Comfort seating"
+    ],
+    "specs": {
+      "Engine": "1.5L Hybrid",
+      "Power": "116 HP (combined)",
+      "Transmission": "e-CVT",
+      "Seating": "5"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  "camry": {
+    "name": "Camry Hybrid",
+    "tagline": "Luxury & Efficiency",
+    "price": "\u20b930,00,000*",
+    "image": "https://images.unsplash.com/photo-1517949908119-80b1b6b4d3f8?auto=format&fit=crop&w=1200&q=80",
+    "hero": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+    "overview": "Executive sedan with premium features and hybrid efficiency.",
+    "features": [
+      "Premium interiors",
+      "Adaptive cruise control",
+      "Panoramic roof",
+      "High-end audio"
+    ],
+    "specs": {
+      "Engine": "2.5L Hybrid",
+      "Power": "215 HP (combined)",
+      "Transmission": "e-CVT",
+      "Seating": "5"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1200&q=80"
+    ]
+  }
+}
