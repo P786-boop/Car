@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - Dream Motors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo-link">
+          <svg width="40" height="40" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <rect width="24" height="24" rx="4" fill="#ff6600"></rect>
+            <path d="M6 16 L10 8 L14 16 Z" fill="white"></path>
+          </svg>
+          <span>Dream Motors</span>
+        </a>
+      </div>
+      <nav class="main-nav" role="navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="model.html" class="nav-link">Models</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn-primary">Book Test Drive</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact & Book a Test Drive</h1>
+    <form id="contactForm" class="contact-form">
+      <div class="form-row">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div class="form-row">
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" required>
+      </div>
+      <div class="form-row">
+        <label for="model">Preferred Model</label>
+        <select id="model" name="model">
+          <option value="">Select a model</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="date">Preferred date</label>
+        <input id="date" name="date" type="date">
+      </div>
+      <div class="form-row">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <div id="formMsg" class="muted"></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Dream Motors Showroom</strong>
+        <p>Premium cars • Trusted service</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="model.html">Models</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Dream Motors. All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
